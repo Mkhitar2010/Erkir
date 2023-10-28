@@ -91,14 +91,15 @@ function start(){
             getElementById('right_4').style.backgroundColor = 'red'
         }
 
-        if(r5== 'Perashki   '){
+        if(r5== 'Ottawa'){
             result+=2
             getElementById('right_5').style.backgroundColor = 'green'
         }else{
             getElementById('right_5').style.backgroundColor = 'red'
         }       
 
-
+getElementById('Answer').innerHTML = result;
+getElementById('Quality').innerHTML = quality;
 
 
 
